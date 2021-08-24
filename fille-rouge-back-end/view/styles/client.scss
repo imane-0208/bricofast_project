@@ -1,0 +1,106 @@
+
+@import '../styles/_variables.scss';
+
+body{
+    font-family:$font;
+    background-color: $backgroundcolor !important;
+    
+
+    .navbar{
+
+        background-color: $maincolor !important;
+        img{
+            width: 110px;
+            height: 70px;
+        }
+        a{
+            color: $white;
+            &:hover{
+                color: $secondcolor;
+            }
+        }
+        .container-fluid{
+            margin-left: 10%;
+        }
+        .dropdown{
+            .dropdown-menu{
+               a{
+                   color: $maincolor;
+               } 
+            }
+
+        }
+
+        .navbar-text{
+            //margin-left: 2%;
+            margin-right: 2%;
+            a{
+                text-decoration: none;
+                &:hover{
+                    color: $yellow;
+                }
+            }
+        }
+    }
+    .interface{
+        color: $maincolor;
+        margin-top: 10%;
+        margin-left: 10%;
+        width: 80%;
+        //left: 50%;
+        margin-bottom: 10% !important;
+        background-color: $white;
+        padding: 3% 10% 4% 10%;
+        border-radius: 5px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: block;
+
+        
+            p{
+                text-align: center;
+                font-size: 70px;
+                color: $yellow;
+            }
+            h3{
+                text-align: center;
+
+            }
+            .btns{
+                padding: 1% 0% 1% 0%;
+                margin-top: 5%;
+                .btn{
+                    //border: 2 $yellow !important; 
+                    border: solid 2px $yellow;
+                    margin: 2%;
+                    color: $yellow;
+                    font-size: 19px;
+                    width: 200px;
+                    &:hover{
+                        background-color: $yellow;
+                        color: $white;
+                    }
+                }
+
+            }
+        
+    }
+
+    .card{
+        a{ i{
+
+            &:hover{
+                opacity: 70%;
+            }
+        }
+        }
+    }
+    footer{
+        position: absolute;
+        
+    }
+
+    .bg-ciel{
+        background-color:  #90cbfbb9 !important;
+        color: #FFD432 !important;
+    }
+}

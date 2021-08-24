@@ -1,0 +1,77 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F6F6F9 !important;
+}
+
+body .bg {
+  width: 100%;
+  height: 400px;
+  overflow: hidden;
+}
+
+body .bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .container {
+  color: #0D043D;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #ffffff;
+  width: 35%;
+  position: absolute;
+  -webkit-transform: translate(50, 50);
+          transform: translate(50, 50);
+  top: 5%;
+  left: 30%;
+  border-radius: 10px;
+  margin-bottom: 10%;
+}
+
+body .container #exit {
+  text-decoration: none;
+  position: absolute;
+  margin-top: 3%;
+  margin-left: 0%;
+}
+
+body .container #exit i {
+  color: #0D043D;
+  font-size: 30px;
+  margin-left: 0%;
+}
+
+body .container #exit i:hover {
+  font-size: 40px;
+}
+
+body .container .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container .row img {
+  width: 210px;
+  height: 115px;
+  margin-top: 6%;
+  margin-bottom: 5%;
+}
+
+body .container .row .text {
+  margin-bottom: 10%;
+}
+/*# sourceMappingURL=post.css.map */

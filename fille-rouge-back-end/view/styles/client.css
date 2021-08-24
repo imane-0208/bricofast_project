@@ -1,0 +1,97 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F6F6F9 !important;
+}
+
+body .navbar {
+  background-color: #0D043D !important;
+}
+
+body .navbar img {
+  width: 110px;
+  height: 70px;
+}
+
+body .navbar a {
+  color: #ffffff;
+}
+
+body .navbar a:hover {
+  color: #90CBFB;
+}
+
+body .navbar .container-fluid {
+  margin-left: 10%;
+}
+
+body .navbar .dropdown .dropdown-menu a {
+  color: #0D043D;
+}
+
+body .navbar .navbar-text {
+  margin-right: 2%;
+}
+
+body .navbar .navbar-text a {
+  text-decoration: none;
+}
+
+body .navbar .navbar-text a:hover {
+  color: #FFD432;
+}
+
+body .interface {
+  color: #0D043D;
+  margin-top: 10%;
+  margin-left: 10%;
+  width: 80%;
+  margin-bottom: 10% !important;
+  background-color: #ffffff;
+  padding: 3% 10% 4% 10%;
+  border-radius: 5px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: block;
+}
+
+body .interface p {
+  text-align: center;
+  font-size: 70px;
+  color: #FFD432;
+}
+
+body .interface h3 {
+  text-align: center;
+}
+
+body .interface .btns {
+  padding: 1% 0% 1% 0%;
+  margin-top: 5%;
+}
+
+body .interface .btns .btn {
+  border: solid 2px #FFD432;
+  margin: 2%;
+  color: #FFD432;
+  font-size: 19px;
+  width: 200px;
+}
+
+body .interface .btns .btn:hover {
+  background-color: #FFD432;
+  color: #ffffff;
+}
+
+body .card a i:hover {
+  opacity: 70%;
+}
+
+body footer {
+  position: absolute;
+}
+
+body .bg-ciel {
+  background-color: #90cbfbb9 !important;
+  color: #FFD432 !important;
+}
+/*# sourceMappingURL=client.css.map */

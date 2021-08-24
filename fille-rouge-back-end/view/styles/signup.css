@@ -1,0 +1,73 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+body .navbar {
+  background-color: #0D043D !important;
+}
+
+body .navbar img {
+  width: 110px;
+  height: 70px;
+}
+
+body .navbar a {
+  color: #ffffff;
+}
+
+body .navbar .container-fluid {
+  margin-left: 10%;
+}
+
+body .main {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  /* .icons{
+            position: absolute;
+            margin-top: 5%;
+            //right: %;
+            //top: 0;
+            left: 700px;
+            i{
+                font-size: 17px;
+            }
+            
+            //top: 8px ;
+        } */
+}
+
+body .main hr {
+  width: 95% !important;
+}
+
+body .main #submit {
+  width: 95% !important;
+  height: 60px !important;
+  border: #FFD432 !important;
+  margin-top: 3%;
+}
+
+body .main #submit:hover {
+  opacity: 50%;
+}
+
+body .main .form-control {
+  width: 95% !important;
+  height: 50px !important;
+}
+
+body .main h3 {
+  color: #0D043D !important;
+  margin-bottom: 10%;
+}
+
+body .main img {
+  margin-left: 30% !important;
+  margin-top: 15%;
+}
+
+body .bg-ciel {
+  background-color: #90cbfbb9 !important;
+  color: #FFD432 !important;
+}
+/*# sourceMappingURL=signup.css.map */

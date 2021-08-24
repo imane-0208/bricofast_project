@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/post.css'>
+    <!-- <script src='main.js'></script> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+	</script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" 
+    integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="bg">
+        <img src="../images/post_bg.png" alt="">
+    </div>
+    <div class="container px-5 pb-4">
+        <a href="espaceClient.html" id="exit"><i class="fas fa-arrow-circle-left"></i></a>
+        <div class="row">
+            <img  src="../images/logo_blue.png" alt="">
+            <div class="text">
+                <h3 class="text-center">Bienvenue sur votre espace de poster</h3>
+                <p class="text-center">Vous pouvez ici annoncer votre offre de travaille ou bien votre 
+                    demande pour trouver un bricoleur pour votre petits travaux </p>
+            </div>
+            <div>
+                
+                    <form id="post">
+                        <div class="mb-3">
+                          <label for="objectif" class="form-label fw-bold"> <span><i class="fas fa-object-group" ></i></span> Objectif du poste</label>
+                          <input type="text" class="form-control" id="objectif"  placeholder= "Objectif ...">
+                          
+                        </div>
+                        <div class="mb-3">
+                            <label for="categorie" class="form-label fw-bold"> <span><i class="fas fa-briefcase"></i></span> Selectionner une categorie</label>
+                            <!-- <input type="email" class="form-control" id="categorie" aria-describedby="emailHelp" placeholder= "categorie ..."> -->
+                            <select name="" class="form-control" id="categorie" placeholder= "categorie ...">
+                                <option value="">categorie ...</option>
+                                <option value="1">menuisrie</option>
+                                <option value="2">peinture</option>
+                                <option value="3">plomberie</option>
+                                <option value="4">électroménager</option>
+                                <option value="5">électricité</option>
+
+                            </select>
+                            
+                          </div>
+                          <div class="mb-3">
+                            <label for="ville" class="form-label fw-bold"> <span><i class="fas fa-map-marker-alt"></i></span> Indiquer votre actuel ville</label>
+                            <input type="text*" class="form-control" id="ville" aria-describedby="emailHelp" placeholder= "ville ...">
+                            
+                          </div>
+                        <div class="mb-3">
+                          <label for="sujet" class="form-label fw-bold"><i class="fa fa-align-left"></i> Sujet du poste</label>
+                          
+                          <textarea name="" id="sujet" class="form-control" cols="30" rows="10" placeholder="Sujet ..."></textarea>
+                        </div>
+                        <div class="float-end mt-3">
+                            <a href="home.html" class="btn btn-secondary ">Annuler</a hr>
+                            <button type="submit" class="btn btn-warning ">Poster</button>
+                        </div>
+
+                      </form>
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src='js/post.js'></script>
+	<script src="https://kit.fontawesome.com/756f1fbb0c.js" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+		integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+	</script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

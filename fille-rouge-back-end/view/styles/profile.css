@@ -1,0 +1,107 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F6F6F9 !important;
+}
+
+body .navbar {
+  background-color: #0D043D !important;
+}
+
+body .navbar img {
+  width: 110px;
+  height: 70px;
+}
+
+body .navbar a {
+  color: #ffffff;
+}
+
+body .navbar .container-fluid {
+  margin-left: 10%;
+}
+
+body .container {
+  color: #0D043D;
+  margin-top: 5%;
+  margin-right: 20%;
+}
+
+body .container .profileCard {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 30%;
+  background-color: #FFD432;
+  color: #ffffff;
+}
+
+body .container .profileCard .menu {
+  text-align: right;
+  margin-bottom: 3%;
+  padding: 10px;
+  width: 100%;
+}
+
+body .container .profileCard .menu .dropdown-toggle::after {
+  display: none !important;
+}
+
+body .container .profileCard .menu a {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+body .container .profileCard .menu a i {
+  color: #ffffff;
+}
+
+body .container .profileCard .menu ul {
+  color: #0D043D;
+}
+
+body .container .profileCard .menu ul i {
+  color: #0D043D;
+}
+
+body .container .profileCard ul {
+  list-style-type: none;
+}
+
+body .container .profileCard ul li {
+  margin-bottom: 15px;
+}
+
+body .container .profileCard ul li span {
+  font-size: 17px;
+  font-weight: 600;
+  margin-right: 5px;
+}
+
+body .container .profileCard ul li span i {
+  font-size: 23px;
+}
+
+body .container .content .card {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-left: 0%;
+  margin-bottom: 5%;
+  background-color: #ffffff;
+  color: #0D043D;
+}
+
+body .container .content .card .card-header {
+  border-color: #FFD432;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #ffffff;
+}
+
+body .container .content .card .card-body a {
+  float: right;
+}
+
+body .bg-ciel {
+  background-color: #90cbfbb9 !important;
+  color: #FFD432 !important;
+}
+/*# sourceMappingURL=profile.css.map */

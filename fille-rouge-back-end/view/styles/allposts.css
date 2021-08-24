@@ -1,0 +1,125 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #F6F6F9 !important;
+}
+
+body .navbar {
+  background-color: #0D043D !important;
+}
+
+body .navbar img {
+  width: 110px;
+  height: 70px;
+}
+
+body .navbar a {
+  color: #ffffff;
+}
+
+body .navbar a:hover {
+  color: #90CBFB;
+}
+
+body .navbar .container-fluid {
+  margin-left: 10%;
+}
+
+body .navbar .dropdown .dropdown-menu a {
+  color: #0D043D;
+}
+
+body .navbar .navbar-text {
+  margin-right: 2%;
+}
+
+body .navbar .navbar-text a {
+  text-decoration: none;
+}
+
+body .navbar .navbar-text a:hover {
+  color: #FFD432;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  background-color: #ffffff !important;
+  padding-bottom: 4% !important;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  width: 80%;
+}
+
+body .container .bg {
+  width: 100%;
+  height: 100px;
+  overflow: hidden;
+}
+
+body .container .bg img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+body .container .filtre {
+  width: 100%;
+}
+
+body .container .filtre form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+body .container .filtre form h5 {
+  color: #0D043D;
+}
+
+body .container .filtre form .form-control {
+  width: 30%;
+  margin-left: 1%;
+}
+
+body .container .filtre form .btn {
+  background-color: #FFD432;
+  margin-left: 2%;
+}
+
+body .container .card {
+  width: 80% !important;
+  margin-left: 10%;
+  border: solid thin #7D7B7B !important;
+}
+
+body .container .card:hover {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.24) 4px 6px 16px;
+          box-shadow: rgba(0, 0, 0, 0.24) 4px 6px 16px;
+}
+
+body .bg-ciel {
+  background-color: #90cbfbb9 !important;
+  color: #FFD432 !important;
+}
+/*# sourceMappingURL=allposts.css.map */

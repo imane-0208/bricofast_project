@@ -1,0 +1,73 @@
+@import '../styles/_variables.scss';
+
+body{
+    font-family:$font;
+
+    .navbar{
+
+
+    
+        background-color: $maincolor !important;
+        img{
+            width: 110px;
+            height: 70px;
+        }
+        a{
+            color: $white;
+        }
+        .container-fluid{
+            margin-left: 10%;
+        }
+    }
+    
+    .main{
+        //transform: translate(50,50);
+        //top: 50%;
+        //left: 50%;
+        margin-top: 7%;
+        margin-bottom: 7%;
+        hr{
+            width: 95% !important;
+        }
+        
+        #submit{
+    
+            width: 95% !important;
+            height: 60px !important;
+            border: $yellow !important;
+            margin-top: 3%;
+            &:hover{
+                opacity: 50%;
+            }
+            
+            
+        }
+        form{
+            margin-top: 15%;
+        }
+        .form-control{
+            width: 95% !important;
+            height: 50px !important;
+            
+            
+        }
+        
+        h3{
+            color: $maincolor !important;
+            margin-bottom:  10%;
+        }
+    
+        img{
+    
+            //margin-left: 30% !important;
+            margin-top: 10%;
+    
+        }
+    }
+    .bg-ciel{
+        background-color:  #90cbfbb9 !important;
+        color: #FFD432 !important;
+    }
+}
+
+
